@@ -1,0 +1,794 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 550vh;
+    width: 100%;
+    padding: 0% 10px;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: white;
+
+}
+#t{
+    height: 60px;
+    width: 23%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#t img{
+    position: absolute;
+    height: 50px;
+    left: 15%;
+}
+#lin{
+    height: 50%;
+    width: 2px;
+    background-color: black; 
+    position: absolute;
+    left: 210px;  
+}
+#t i{
+    position: absolute;
+    font-size: 20px;
+    right: 1%;
+    color: green;
+}
+#y{
+    height: 60px;
+    width: 46%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#y a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+
+}
+#y a:hover{
+    color: #31b120;
+}
+#y i{
+    position: absolute;
+    bottom: 21px;
+    color: black;
+}
+#y i:hover{
+    color: #31b120;
+}
+#p{
+    height: 60px;
+    width: 31%;
+    display: flex;
+}
+#micro{
+    height: 60px;
+    background-color: white;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#micro a{
+    position: absolute;
+    right: 0%;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+#micro a:hover{
+    color: #31b120;
+}
+#micro i{
+    position: absolte;
+    bottom: 21px;
+}
+#icon  :hover{
+    color: #31b120;
+}
+#icon{
+    height: 60px;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+#icon i{
+    font-size: 20px;
+}
+#sign{
+    height: 60px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#sign a{
+    text-decoration: none;
+    position: absolute;
+    left: 3px;
+    font-size: 20px;
+    color: black;
+}
+#sign a:hover{
+    color: #31b120;
+}
+#sign i{
+    position: absolute;
+    left: 70px;
+    font-size: 22px;
+    color: black;
+}
+#sign i:hover{
+    color: #31b120;
+}
+#vid{
+    height: 16%;
+    width: 100%;
+    background-color: rgb(143, 143, 194);
+    position: relative;
+}
+#vid img{
+    height: 100%;
+    width: 100%;
+    position: absolute;   
+}
+#vid h3{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    width: 28%;
+    position: absolute;
+    left: 100px;
+    top: 30%;
+}
+#vid p{
+    font-size: 40px;
+    width: 38%;
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 50%;
+}
+#vid button{
+    position: absolute;
+    background-color: #31b120;
+    height: 50px;
+    width: 140px;
+    top: 71%;
+    left: 10%;
+    position: relative;
+    font-size: 15px;
+    color: rgb(53, 16, 41);
+    border: none;
+    border-radius: 50px;
+}
+#vid button:hover{
+    zoom: 1.2;
+}
+#vid i{
+    position: absolute;
+    font-size: 20px;
+    top: 30%;
+}
+#zone{
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+#zone img{
+    height: 65%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+
+}
+#main2{
+    height: 20%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    position: relative;
+}
+#e h4{
+    font-size: 50px;
+    font-weight: 100%;
+    position: absolute;
+    color: greenyellow;
+    left: 10%;
+    bottom: 30%;
+}
+#e h6{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 100%;
+    color: #00e700;
+    left: 10%;
+    bottom: 20%;
+}
+#e button{
+    height: 30px;
+    width: 30%;
+    position: absolute;
+    border-radius: 20%;
+    left: 10%;
+    bottom: 10%;
+    background-color: transparent;
+    border: none;
+    color: rgb(192, 226, 43);
+    font-size: 18px;
+}
+#e button:hover{
+    zoom: 1.3;
+}
+#e{
+    height: 60%;
+    width: 50%;
+    position: relative;
+}
+#e img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+#r{
+    height: 40%;
+    width: 50%;
+    background-color: rgb(10, 7, 7);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+#r h3{
+    position: absolute;
+    color: aliceblue;
+    left: 6%;
+    top: 8%;
+    width: 25%;
+}
+#r p{
+    position: absolute;
+    color: aliceblue;
+    left: 6%;
+    top: 40%;
+    width: 40%;
+    font-size: 20px;
+}
+#r button{
+    position: absolute;
+    background-color: transparent;
+    color: aliceblue;
+    left: 6%;
+    bottom: 6%;
+    height: 10%;
+    border: none;
+}
+#r button:hover{
+    zoom: 1.3;
+}
+#mo{
+    background-color: blue;
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    right: 0%;
+}
+#mo img{
+    position: absolu;
+    height: 100%;
+    width: 100%;
+}
+#dar{
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    right: 25%;
+}
+#dar img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#w{
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;   
+}
+#w img{
+    height: 100%;
+    width: 100%;
+}
+#w img:hover{
+    cursor: pointer;
+}
+#v{
+    height: 40%;
+    width: 50%;
+    background-color: rgb(26, 6, 6);
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+}
+#pn{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-color: #31b120;
+}
+#pn img{
+    height: 100%;
+    width: 100%;
+}
+#jp{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-color: rgb(26, 25, 25);
+    right: 0%;
+}
+#jp h3{
+    font-size: 35px;
+    position: absolute;
+    left: 7%;
+    color: azure;
+    top: 25%;
+}
+#jp p{
+    font-size: 20px;
+    width: 70%;
+    left: 7%;
+    top: 50%;
+    position: absolute;
+    color: azure;
+}
+#jp button{
+    font-size: 15px;
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
+    border: none;
+    background-color: transparent;
+    color: azure;
+}
+#jp button:hover{
+    zoom: 1.3;
+}
+#main3{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 247, 247);
+    position: relative;
+    display: flex;
+    background-image: url(fort.png);
+    background-repeat: no-repeat;
+    background-position: 90%;    
+}
+#main3 img{
+    position: absolute;
+    height: 41%;
+    width: 22%;
+    bottom: 9%;
+    right: 30%;
+}
+#main h2{
+    font-size: 80px;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+#main3 p{
+    font-size: 40px;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 3%;
+}
+#main3 button{
+    font-size: 25px;
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    bottom: 5%;
+    left: 3%;
+    background-color: #00e700;
+    color: black;
+    border: none;
+    border-radius: 0%;
+}
+#main4{
+    height: 25%;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+#q{
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    background-color: orange;
+    position: relative;
+}
+#oo{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(145, 174, 255);
+}
+#oo h5{
+    font-size: 25px;
+    width: 85%;
+    left: 8%;
+    position: absolute;
+    top: 10%;
+    color: whitesmoke;
+}
+#oo p{
+    font-size: 24px;
+    width: 85%;
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    color: whitesmoke;
+}
+#oo button{
+    position: absolute;
+    height: 10%;
+    border: none;
+    bottom: 10%;
+    left: 8%;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+}
+#oo button:hover{
+    zoom: 1.3;
+}
+#ot{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0%;
+}
+#ot img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#l{
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    background-color: rgb(11, 0, 20);
+    right: 0%;
+}
+#l img{
+    height: 70%;
+    width: 100%;
+}
+#l h3{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 40px;
+    left: 5%;
+    bottom: 22%;
+}
+#l p{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 28px;
+    bottom: 10%;
+    left: 5%;
+}
+#l button{
+    position: absolute;
+    font-size: 15px;
+    bottom: 3%;
+    left: 5%;
+    border: none;
+    background-color: transparent;
+    color: #00e700;
+}
+#l button:hover{
+    zoom: 1.3;
+}
+#o{
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    background-color: blue;
+    bottom: 0%;
+}
+#o img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#o h3{
+    position: absolute;
+    font-size: 50px;
+    left: 3%;
+    color: white;
+    bottom: 30%;
+}
+#o p{
+    position: absolute;
+    font-size: 30px;
+    left: 3%;
+    color: white;
+    bottom: 20%;
+}
+#o button{
+    position: absolute;
+    font-size: 20px;
+    left: 3%;
+    border: none;
+    border-radius: none;
+    background-color: transparent;
+    color: white;
+    bottom: 10%;
+}
+#o button:hover{
+    zoom: 1.3;
+}
+#f{
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    right: 0%;
+    bottom: 0%;
+}
+#f h3{
+    position: absolute;
+    font-size: 25px;
+    left: 5%;
+    width: 40%;
+    color: white;
+    top: 10%;
+}
+#f p{
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    left: 5%;
+    top: 40%;
+    width: 20%;
+}
+#f button{
+    position: absolute;
+    font-size: 18px;
+    left: 5%;
+    bottom: 10%;
+    border: none;
+    border-radius: none;
+    background-color: transparent;
+    color: whitesmoke;
+
+}
+#f img{
+    height: 100%;
+    width: 60%;
+    right: 0%;
+    position: absolute;
+}
+#main5{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(220, 235, 243);
+    position: relative;
+}
+#main5 img{
+    height: 100%;
+    width: 60%;
+    
+}
+#tent{
+    height: 100%;
+    position: absolute;
+    width: 40%;
+    right: 0%;
+    background-color: rgb(158, 196, 226);
+}
+#tent h2{
+    position: absolute;
+    font-size: 50px;
+    width: 80%;
+    left: 30px;
+    top: 20%;
+}
+#tent p{
+    position: absolute;
+    font-size: 35px;
+    left: 30px;
+    top: 40%;
+}
+#tent button{
+    position: absolute;
+    font-size: 20px;
+    left: 30px;
+    bottom: 20%;
+    border: none;
+    border-radius: 10%;
+    background-color: chartreuse;
+    width: 25%;
+}
+#tent button:hover{
+    zoom: 1.3;
+}
+#nav2{
+    height: 3%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav2 h5{
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+}
+#nav2 i{
+    font-size: 30px;    
+}
+#nav2 i:hover{
+    color: cornflowerblue;
+}
+#end{
+    height: 7%;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+#z1{
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    position: relative;
+    text-align: center;
+}
+#z1 a:hover{
+    color: darkgray;
+}
+#b3{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+#z2{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    left: 20%;
+    text-align: center;
+}
+#z2 a:hover{
+    color: darkgray;
+}
+#z3{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    left: 40%;
+    text-align: center;
+}
+#z3 a:hover{
+    color: darkgray;
+}
+#z4{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    left: 60%;
+    text-align: center;
+}
+#z4 a:hover{
+    color: darkgray;
+}
+#z1 h3{
+    position: absolute;
+    left: 27%;   
+}
+#b3 a{
+    display: grid;
+    margin-top: 3px;
+    line-height: 30px;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    text-decoration: none;
+    color: black;
+}
+#z2 h3{
+    position: absolute;
+    left: 21%;
+}
+#b4{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+#b4 a{
+    display: grid;
+    margin-top: 3px;
+    line-height: 30px;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    text-decoration: none;
+    color: black;
+}
+#z3 h3{
+    position: absolute;
+    left: 15%;
+}
+#b5{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+#b5 a{
+    display: grid;
+    margin-top: 3px;
+    line-height: 30px;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    text-decoration: none;
+    color: black;
+}
+#z4 h3{
+    position: absolute;
+    left: 13%;
+    
+}
+#b6{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+#b6 a{
+    display: grid;
+    margin-top: 3px;
+    line-height: 30px;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    text-decoration: none;
+    color: black;
+}
